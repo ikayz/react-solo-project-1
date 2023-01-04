@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  width: 35vh;
+  margin: auto;
+}
+
+.social-icons li {
+  margin: 10px;
+}
+
+footer {
+  background-color: #161619;
+  padding: 10px;
+}
+
+.interests,
+.about,
+.header {
+  background-color: #1a1b21;
+  color: #fff;
+  padding: 10px;
+}
+
+.header img {
+  width: 100%;
+  padding: 0;
+}
+
+h1,
+h2,
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  width: 10.1rem;
+  margin-left: 10px;
+}
+
+.email-btn img {
+  width: 25px;
+  display: inline-block;
+}
+
+.email-btn,
+.linkedin-btn {
+  background-color: #d1d5db;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.linkedin-btn {
+  background-color: #5093e2;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 16px;
+  color: #f3bf99;
+  font-weight: 200;
+  line-height: 0;
+}
+
+.header p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+p {
+  font-weight: 200;
+}
+
+.container {
+  max-width: 400px;
+  margin: 10px auto;
+}
